@@ -32,11 +32,13 @@
 #     print('Something is wrong :(')
 
 # 4. Calculate income tax
-salaryUser = float(int(input('Put your balance mensaly: ')))
+# salaryUser = float(int(input('Put your balance mensaly: ')))
+# 
+# if salaryUser > 5000.00:
+#     newBalance = salaryUser * 0.8
+#     deducted = salaryUser - newBalance
+#     print(f'Your new balance after de income tax is "${newBalance:.2f}" and "${deducted:.2f}" was deducted.')
+# else:
+#     print('Your salary is less than $5000 and you dont need to pay income tax.')
 
-if salaryUser > 5000.00:
-    newBalance = salaryUser * 0.8
-    deducted = salaryUser - newBalance
-    print(f'Your new balance after de income tax is "${newBalance:.2f}" and "${deducted:.2f}" was deducted.')
-else:
-    print('Your salary is less than $5000 and you dont need to pay income tax.')
+# 5. Check the word is palindrome
