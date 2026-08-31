@@ -66,18 +66,46 @@
 #     print('The numers are the same')
 
 # 7. Age category
+# 
+# try:
+#     age = int(input('Send your age: '))
+#     if age > 0 and age <= 12:
+#         print('You are a kid!')
+#     elif age >= 13 and age <= 17:
+#         print('You are a adolescent!')
+#     elif age >= 18 and age <= 64:
+#         print('You are a adult!')
+#     elif age >= 65:
+#         print('You are a old human!')
+#     else: 
+#         print('Value invalid.')
+# except ValueError:
+#     print('Value invalid, only numbers.')
 
-try:
-    age = int(input('Send your age: '))
-    if age > 0 and age <= 12:
-        print('You are a kid!')
-    elif age >= 13 and age <= 17:
-        print('You are a adolescent!')
-    elif age >= 18 and age <= 64:
-        print('You are a adult!')
-    elif age >= 65:
-        print('You are a old human!')
-    else: 
-        print('Value invalid.')
-except ValueError:
-    print('Value invalid, only numbers.')
+# 8. Score classify 
+# 
+# score = float(input('Set you grade: '))
+# 
+# if score >= 9 and score <= 10:
+#     print('Grade: A')
+# elif score >= 7 and score <= 8.9:
+#     print('Grade: B')
+# elif score >= 5 and score <= 6.9:
+#     print('Grade: C')
+# elif score >= 0 and score < 5:
+#     print('Grade: D')
+# else:
+#     print('Score invalid.')
+
+# 9. To check divisibility for 3 and 5
+
+numberDibisibility = float(input('Enter a number to check dibisibility by 3 and 5: '))
+
+if numberDibisibility % 3 == 0 and numberDibisibility % 5 == 0:
+    print(f'This number "{numberDibisibility}" is divisible for 3 and 5.')
+elif numberDibisibility % 3 == 0:
+    print(f'Number "{numberDibisibility}" is only divisible by 3.')
+elif numberDibisibility % 5 == 0:
+    print(f'Number "{numberDibisibility}" is only divisible by 5.')
+else:
+    print('Nothing number is divisible between 3 and 5.')
