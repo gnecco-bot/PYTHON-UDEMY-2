@@ -98,14 +98,58 @@
 #     print('Score invalid.')
 
 # 9. To check divisibility for 3 and 5
+# 
+# numberDibisibility = float(input('Enter a number to check dibisibility by 3 and 5: '))
+# 
+# if numberDibisibility % 3 == 0 and numberDibisibility % 5 == 0:
+#     print(f'This number "{numberDibisibility}" is divisible for 3 and 5.')
+# elif numberDibisibility % 3 == 0:
+#     print(f'Number "{numberDibisibility}" is only divisible by 3.')
+# elif numberDibisibility % 5 == 0:
+#     print(f'Number "{numberDibisibility}" is only divisible by 5.')
+# else:
+#     print('Nothing number is divisible between 3 and 5.')
 
-numberDibisibility = float(input('Enter a number to check dibisibility by 3 and 5: '))
+# 10. Calcule salary bonus
+# 
+# salary = int(input('Enter your salary: '))
+# workingTime = int(input('Enter your working time: '))
+# 
+# if workingTime > 5:
+#     bonusSalary = salary * 0.10
+#     print(f'You coop on this work project earns an extra bonus, your new salary is "{salary + bonusSalary}"')
 
-if numberDibisibility % 3 == 0 and numberDibisibility % 5 == 0:
-    print(f'This number "{numberDibisibility}" is divisible for 3 and 5.')
-elif numberDibisibility % 3 == 0:
-    print(f'Number "{numberDibisibility}" is only divisible by 3.')
-elif numberDibisibility % 5 == 0:
-    print(f'Number "{numberDibisibility}" is only divisible by 5.')
-else:
-    print('Nothing number is divisible between 3 and 5.')
+# 11. Calcule salary increase
+# 
+# salary = int(input('Enter your salary: '))
+# 
+# if salary <= 1000:
+#     print(f'{salary * 1.2:.2f}')
+# elif salary > 1000 and salary <= 2000:
+#     print(f'{salary * 1.1:.2f}')
+# elif salary > 2000:
+#     print(f'{salary * 1.05:.2f}')
+
+# 12. To check leap year
+# 
+# year = int(input('Digit one year: '))
+# 
+# if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+#         print(f'This year "{year}" is bissextile!')
+# else:
+#     print(f'This year "{year}" is not a bissextile.')
+
+# 13. Calcule discount value
+# 
+# value = int(input('Product value: '))
+# 
+# if value >= 100 and value <= 500:
+#     print(f'New value is {value*0.95}.')
+# elif value > 500 and value <= 1000:
+#     print(f'New value is {value*0.90}.')
+# elif value > 1000:
+#     print(f'New value is {value*0.85}.')
+# elif value < 100:
+#     print('It dont have a discount')
+# else:
+#     print('Incorrect value.')
