@@ -35,9 +35,21 @@
 #     print(i)
 
 # 8. Count the number of pairs in a list 
-list = [2, 5, 6, 7, 8, 10, 12]
-count = 0
-for i in list:
-    if i % 2 == 0:
-        count += 1
-        print(f'Number of pairs "{i}" in list count: {count}')
+# list = [2, 5, 6, 7, 8, 10, 12]
+# count = 0
+# for i in list:
+#     if i % 2 == 0:
+#         count += 1
+#         print(f'Number of pairs "{i}" in list count: {count}')
+
+# 9. Print odd numbers
+# for i in range(21):
+#     if i % 2 != 0:
+#         print(i)
+
+# 10. Calcute factorial number sended by user
+# num = int(input('Digit a number: '))
+# factorial = 1
+# for i in range(1, num+1):
+#     factorial *= i
+# print(f'Factorial number {factorial}')
