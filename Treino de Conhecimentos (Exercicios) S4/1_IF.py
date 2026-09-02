@@ -155,21 +155,21 @@
 #     print('Incorrect value.')
 
 # 14. To check validity password
-
-password = str(input('Digit your password: '))
-haveUpperCase = False
-haveDigit = False
-haveCharacterSpecial = False
-
-for c in password:
-    if c.isupper():
-        haveUpperCase = True
-    if c.isdigit():
-        haveDigit = True
-    if c in '!@#$%¨&*()_+=-':
-        haveCharacterSpecial = True
-
-if len(password) >= 8 and haveUpperCase and haveDigit and haveCharacterSpecial:
-    print(f'This password "{password}" is STRONG!')
-else:
-    print(f'This password "{password}" is weak.')
+# 
+# password = str(input('Digit your password: '))
+# haveUpperCase = False
+# haveDigit = False
+# haveCharacterSpecial = False
+# 
+# for c in password:
+#     if c.isupper():
+#         haveUpperCase = True
+#     if c.isdigit():
+#         haveDigit = True
+#     if c in '!@#$%¨&*()_+=-':
+#         haveCharacterSpecial = True
+# 
+# if len(password) >= 8 and haveUpperCase and haveDigit and haveCharacterSpecial:
+#     print(f'This password "{password}" is STRONG!')
+# else:
+#     print(f'This password "{password}" is weak.')
