@@ -53,3 +53,15 @@
 # for i in range(1, num+1):
 #     factorial *= i
 # print(f'Factorial number {factorial}')
+
+# 11. To check prime number 
+# num = int(input('Send a number to check if it is prime: '))
+# prime = True
+# for i in range(2, num):
+#     if num % i == 0:
+#         prime = False
+#         break
+# if prime:
+#     print(f'This number "{num}" is prime or not? {prime}')
+# else:
+#     print(f'This number "{num}" is prime or not? {prime}')
