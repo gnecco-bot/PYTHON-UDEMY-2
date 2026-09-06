@@ -73,12 +73,30 @@
 # print(list2)
 
 # 13. Vowel count in a sentence
-phrase = str(input('Digit a phrase: '))
-vowel = 'aeiou'
-count = 0
+# phrase = str(input('Digit a phrase: '))
+# vowel = 'aeiou'
+# count = 0
+# for i in phrase:
+#     if i in vowel:
+#         count += 1
+# print(f'Have "{count}" vowel!')
 
-for i in phrase:
-    if i in vowel:
-        count += 1
+# 14. Sort a list manually
+# list = [29, 10, 14, 37, 13]
+# for i in range(len(list)):
+#     for j in range(i+1, len(list)):
+#         if list[i] > list[j]:
+#             list[i], list[j] = list[j], list[i]
+# print(list)
 
-print(f'Have "{count}" vowel!')
+# 15. Check for palindrome
+# word = str(input('Digit a word: ')).lower()
+# palindrome = True
+# for i in range(len(word)):
+#     if word[i] != word[-(i + 1)]:
+#         palindrome = False
+#         break
+# if palindrome:
+#     print('is palindrome')
+# else:
+#     print('isnt palindrome')
