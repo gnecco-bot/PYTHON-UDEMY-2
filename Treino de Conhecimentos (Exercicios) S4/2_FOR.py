@@ -65,3 +65,20 @@
 #     print(f'This number "{num}" is prime or not? {prime}')
 # else:
 #     print(f'This number "{num}" is prime or not? {prime}')
+
+# 12. Multiple each element of the list by a provided value
+# num = int(input('Send a value: '))
+# list = [2, 4, 5, 8, 10]
+# list2 = [i * num for i in list]
+# print(list2)
+
+# 13. Vowel count in a sentence
+phrase = str(input('Digit a phrase: '))
+vowel = 'aeiou'
+count = 0
+
+for i in phrase:
+    if i in vowel:
+        count += 1
+
+print(f'Have "{count}" vowel!')
