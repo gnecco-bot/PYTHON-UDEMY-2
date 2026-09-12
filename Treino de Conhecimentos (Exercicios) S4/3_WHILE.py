@@ -121,11 +121,10 @@
 #     print('None postive number was sended.')
 
 # 15. Sum the numbers until a limit value is reached
-lim = 100
-sum = 0
-while sum < lim:
-    num = float(input('Digit a number: '))
-    sum += num
-    print(f'Total sum: {sum}')
-
-print("You've reached the limit")
+# lim = 100
+# sum = 0
+# while sum < lim:
+#     num = float(input('Digit a number: '))
+#     sum += num
+#     print(f'Total sum: {sum}')
+# print("You've reached the limit")
