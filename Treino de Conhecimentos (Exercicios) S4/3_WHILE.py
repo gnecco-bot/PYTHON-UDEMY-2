@@ -53,3 +53,19 @@
 #     num //= 10
 #     count += 1
 # print(f'Have {count} digit')
+
+# 8. Successive multiplication
+# num = int(input('Put a number: '))
+# count = 10
+# while count >= 1:
+#     print(f'{num} x {count} = {num * count}')
+#     count -= 1
+
+# 9. Check the age input
+age = int(input('Digit your age: '))
+
+while age >= 0 and age <= 120:
+    print('OK, valid age.')
+    age = int(input('Digit your age: '))
+
+print('Invalid age.')
