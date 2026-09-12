@@ -62,10 +62,70 @@
 #     count -= 1
 
 # 9. Check the age input
-age = int(input('Digit your age: '))
+# age = int(input('Digit your age: '))
+# while age >= 0 and age <= 120:
+#     print('OK, valid age.')
+#     age = int(input('Digit your age: '))
+# print('Invalid age.')
 
-while age >= 0 and age <= 120:
-    print('OK, valid age.')
-    age = int(input('Digit your age: '))
+# 10. Guess the secret number
+# num = int(input('Digit a number to check secret number: '))
+# secretNumber = 8
+# while num != secretNumber:
+#     print('Invalid number...')
+#     num = int(input('Send other number: '))
+# print('Very nice! You have sent a success valid number ')
 
-print('Invalid age.')
+# 11. Convert decimal to binary 
+# num = int(input('Send a number to convert binary: '))
+# binary = ""
+# while num > 0:
+#     binary = str(num % 2) + binary
+#     num //= 2
+#     print(num)
+# print(f'The binary number is: {binary}')
+
+# 12. Reverse string
+# str = str(input('Digit a word: '))
+# str_2 = ""
+# i = len(str) - 1
+# while i >= 0:
+#     str_2 += str[i]
+#     i -= 1
+# print(str_2)
+
+# 13. Count how many times a character appears in a string
+# str = input('Digite a str: ')
+# char = input('Digit a character: ')
+# count = 0
+# i = 0
+# while i < len(str):
+#     if str[i] == char:
+#         count += 1
+#     i += 1
+# print(f"The charcater '{char}' appears '{count}' times this string.")
+
+# 14. Average of the positive numbers
+# sum = 0
+# count = 0
+# num = float(input('Digit a number ("0" to exit): '))
+# while num != 0:
+#     if num > 0:
+#         sum += num
+#         count += 1
+#     num = float(input('Digit a number ("0" to exit): '))
+# if count > 0:
+#     avg = sum / count
+#     print(f'Average of the postive numbers is: {avg:.2f}')
+# else:
+#     print('None postive number was sended.')
+
+# 15. Sum the numbers until a limit value is reached
+lim = 100
+sum = 0
+while sum < lim:
+    num = float(input('Digit a number: '))
+    sum += num
+    print(f'Total sum: {sum}')
+
+print("You've reached the limit")
