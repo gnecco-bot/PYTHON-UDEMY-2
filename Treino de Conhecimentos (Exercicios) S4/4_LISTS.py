@@ -21,7 +21,12 @@
 # print(names)
 
 # 5. Create a list and find the second-largest number in the list
-num = [10, 45, 34, 87, 23, 56, 78, 12, 99]
-numUnics = list(set(num))
-numUnics.sort()
-print(numUnics[-2])
+# num = [10, 45, 34, 87, 23, 56, 78, 12, 99]
+# numUnics = list(set(num))
+# numUnics.sort()
+# print(numUnics[-2])
+
+# 6. Ask the user a list words separed for comma and show the list with word inverted 
+word = input('Digit a words separed for comma: ').split(',')
+wordInverted = word[::-1]
+print('List with the word reversed:', wordInverted)
