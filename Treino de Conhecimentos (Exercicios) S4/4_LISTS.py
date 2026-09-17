@@ -27,6 +27,11 @@
 # print(numUnics[-2])
 
 # 6. Ask the user a list words separed for comma and show the list with word inverted 
-word = input('Digit a words separed for comma: ').split(',')
-wordInverted = word[::-1]
-print('List with the word reversed:', wordInverted)
+# word = input('Digit a words separed for comma: ').split(',')
+# wordInverted = word[::-1]
+# print('List with the word reversed:', wordInverted)
+
+# 7. Given a list of numbers, create a new list that contains only the number larger than 10
+num = [1, 23, 56, 21, 8, 6, 10, 9]
+numLarger = [n for n in num if n > 10]
+print(numLarger)
