@@ -45,8 +45,27 @@
 #     print('It do not exists in this list.')
 
 # 9. Combine two lists of the numbers, remove duplicates and show it in a list 
-list1 = [1,2,3,4,5]
-list2 = [4,5,6,7,8]
+# list1 = [1,2,3,4,5]
+# list2 = [4,5,6,7,8]
+# list_combine = list(set(list1 + list2))
+# print(list_combine)
 
-list_combine = list(set(list1 + list2))
-print(list_combine)
+# 10. Ask to user 5 numbers and show it in a original list and order list without modify the original
+# listOriginal = []
+# for i in range(5):
+#     i = int(input('Digit a number to put in a list: '))
+#     listOriginal.append(i)
+# listOrder = sorted(listOriginal)
+# print(listOriginal)
+# print(listOrder)
+
+# 11. Create a list of the list containing the students names and their grade
+students = [['João', 8, 7, 9], ['Ana', 10, 9 ,6], ['Clara', 8, 9, 9]]
+for student in students:
+    media = sum(student[1:]) / len(student[1:])
+    student.append(media)
+
+listOrder = sorted(students, key=lambda x: x[4], reverse=True)
+
+for student in listOrder:
+    print(f'Student: {student[0]} - Media: {student[4]:.2f}')
