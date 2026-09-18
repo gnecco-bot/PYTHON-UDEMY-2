@@ -98,12 +98,11 @@
 #     print(f'Word with {lengt} letters: {agroup}')
 
 # 15. Given a list of the integers, to write a function that return sum the elements that in indices pairs and sum the elements that in indices odd 
-def sumPairsOdd(num):
-    sumPairs = sum(num[i] for i in range(0, len(num), 2))
-    sumOdd = sum(num[i] for i in range(1, len(num), 2))
-    return sumPairs, sumOdd
-
-list = [10, 15, 20, 25, 30, 35, 40]
-sumPairs, sumOdd = sumPairsOdd(list)
-print(f'Sum pairs: {sumPairs}')
-print(f'Sum Odd: {sumOdd}')
+# def sumPairsOdd(num):
+#     sumPairs = sum(num[i] for i in range(0, len(num), 2))
+#     sumOdd = sum(num[i] for i in range(1, len(num), 2))
+#     return sumPairs, sumOdd
+# list = [10, 15, 20, 25, 30, 35, 40]
+# sumPairs, sumOdd = sumPairsOdd(list)
+# print(f'Sum pairs: {sumPairs}')
+# print(f'Sum Odd: {sumOdd}')
