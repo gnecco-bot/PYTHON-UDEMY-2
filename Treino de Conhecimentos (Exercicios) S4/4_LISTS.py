@@ -60,12 +60,50 @@
 # print(listOrder)
 
 # 11. Create a list of the list containing the students names and their grade
-students = [['João', 8, 7, 9], ['Ana', 10, 9 ,6], ['Clara', 8, 9, 9]]
-for student in students:
-    media = sum(student[1:]) / len(student[1:])
-    student.append(media)
+# students = [['João', 8, 7, 9], ['Ana', 10, 9 ,6], ['Clara', 8, 9, 9]]
+# for student in students:
+#     media = sum(student[1:]) / len(student[1:])
+#     student.append(media)
+# listOrder = sorted(students, key=lambda x: x[4], reverse=True)
+# for student in listOrder:
+#     print(f'Student: {student[0]} - Media: {student[4]:.2f}')
 
-listOrder = sorted(students, key=lambda x: x[4], reverse=True)
+# 12. Implement a function that get two lists and return a list containing just the elements that presents in both lists.
+# list1 = [1,2,3,4,5]
+# list2 = [4,5,6,3,6,8]
+# def bothList(list1, list2):
+#     return [item for item in list1 if item in list2]
+# print(bothList(list1, list2))
 
-for student in listOrder:
-    print(f'Student: {student[0]} - Media: {student[4]:.2f}')
+# 13. Given a list of the integers, create a function that split the list in two new lists: one containing the positive numbers and other containing negative numbers. Show it in two lists and your size 
+# def splitList(num):
+#     positive = [n for n in num if n > 0]
+#     negative = [n for n in num if n < 0]
+#     return positive,  negative
+# list1 = [10, -1, -7, 4, 8, -9, 3, -2, -5, 0]
+# print(splitList(list1))
+
+# 14. given a list of the words, create a function that agroup that words with your length. The function must return a dict where the keys are the length and your values are lists of the words with that one length 
+# def agroupByLength(word):
+#     agroup = {}
+#     for word in words:
+#         length = len(word)
+#         if length not in agroup:
+#             agroup[length] = []
+#         agroup[length].append(word)
+#     return agroup
+# words = ['Cachorro', 'Gato', 'Elefante', 'Ave', 'Rato', 'Onça', 'Girafa']
+# res = agroupByLength(words)
+# for lengt, agroup in res.items():
+#     print(f'Word with {lengt} letters: {agroup}')
+
+# 15. Given a list of the integers, to write a function that return sum the elements that in indices pairs and sum the elements that in indices odd 
+def sumPairsOdd(num):
+    sumPairs = sum(num[i] for i in range(0, len(num), 2))
+    sumOdd = sum(num[i] for i in range(1, len(num), 2))
+    return sumPairs, sumOdd
+
+list = [10, 15, 20, 25, 30, 35, 40]
+sumPairs, sumOdd = sumPairsOdd(list)
+print(f'Sum pairs: {sumPairs}')
+print(f'Sum Odd: {sumOdd}')
