@@ -76,3 +76,24 @@
 #     return hours, minutes, seconds_remain
 # hours, minutes, seconds = convertSeconds(8650)
 # print(f'{hours} hours, {minutes} minutes and {seconds} seconds')
+
+# 13. Function to count vowels
+# def vowels(word):
+#     vowels = 'aeiouAEIOU'
+#     return sum([1 for letters in word if letters in vowels])
+# print(vowels('testeasdasdu123hpeoinmviejr'))
+
+# 14. Function to count words in a string
+# def wordCount(text):
+#     return len(text.split())
+# print(wordCount('teste alo tetetest'))
+
+# 15. Function to order a list
+# def listNumbers(listNum):
+#     return sorted(listNum)
+# print(listNumbers([5, 4, 2, 1, 6, 8, 2]))
+
+# 16. Function to find a largest number or smallest number in a list
+# def largerOrSmall(list):
+#     return max(list), min(list)
+# print(largerOrSmall([1,2,7,4,2,7,89,23,0,51]))
