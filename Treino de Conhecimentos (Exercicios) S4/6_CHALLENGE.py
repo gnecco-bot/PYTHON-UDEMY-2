@@ -70,3 +70,38 @@
 #             print('Something sended is incorrect, pls check it.') 
 # indeterminateNumber()
 
+# 5. Write a programa that reads an array of 10 real numbers and then displays them in reverse order
+# def reverseOrder():
+#     list = []
+#     for i in range(10): 
+#         while True:
+#             try:        
+#                 value = float(input(f'Digit ten numbers (current {i+1}): '))
+#                 list.append(value)
+#                 break
+#             except ValueError:
+#                 print('Send a correct value')
+#     print('Number lists in reverse order:')
+#     for n in reversed(list):
+#         print(n)
+# reverseOrder()
+
+# 6. Write a program that reads 20 integer and stores them in an array
+# def intergerStore():
+#     v1 = []
+#     vEven = []
+#     vOdd = []
+#     for i in range(20):
+#         try:
+#             n = int(input(f'Digit 20 numbers (current {i+1}): '))
+#             v1.append(n)
+#             if n % 2 == 0:
+#                 vEven.append(n)
+#             elif n % 2 != 0:
+#                 vOdd.append(n)
+#         except ValueError:
+#             print('You sendend a incorrect value')
+#     print('Every numbers: ', v1)
+#     print('Only even numbers: ', vEven)
+#     print('Only odd numbers: ', vOdd)
+# intergerStore()
