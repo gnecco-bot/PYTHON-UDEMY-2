@@ -105,3 +105,27 @@
 #     print('Only even numbers: ', vEven)
 #     print('Only odd numbers: ', vOdd)
 # intergerStore()
+
+# 7. Write a program that asks for four grades for 10 students, calculates and stores each student's average in an array, and displays the students with an average greater than or equal to 7.
+def calculeAvg():
+    medias = []
+    students_avg_larger_than_seven = 0
+    for i in range(10):
+        print(f'Digite the 4 grades for studends {i+1}: ')
+        sum_note = 0
+        for j in range(4):
+            while True:
+                try:
+                    note = float(input(f'Digit the {j+1} note: '))
+                    if 0 <= note <= 10:
+                        sum_note += note
+                        break
+                except ValueError:
+                    print('Invalid value')
+        media = sum_note / 4
+        medias.append(media)
+        if media >= 7.0:
+            students_avg_larger_than_seven += 1
+        print(f'Number the average studends larger or equal 7.0: {students_avg_larger_than_seven}')
+
+calculeAvg()
